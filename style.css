@@ -8,6 +8,7 @@ html,
 body {
      height: 100%;
      width: 100%;
+     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
 .page1 {
@@ -109,10 +110,154 @@ body {
 .page2{
      height: 130%;
      width: 100%;
-     background-color: burlywood;
+     /* background-color: burlywood; */
 }
 .page2-achievement{
-     height: 20%;
+     height: 18%;
      width: 100%;
-     background-color: blueviolet;
+     background-color: #002A3B;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     padding: 0 30px;
+     align-items: center;
+     flex-wrap: wrap;
+}
+.page2-achievement-child{
+      height: 90px;
+      width:280px;
+     color: white;
+}
+.page2-achievement-child1{
+    /* background-color: antiquewhite;  */
+    display: flex;
+}
+
+.page2-achievement-child2{
+     /* background-color: #bb931b;  */
+     display: flex;
+ }
+ .page2-achievement-child3{
+     /* background-color: #34d539;  */
+     display: flex;
+ }
+
+ .page2-achievement-child-image1{
+      height: 70px;
+      width: 70px;
+      background-color: #F2F4FF;
+
+ }
+ 
+ .page2-achievement-child-image2{
+     height: 70px;
+     width: 70px;
+     background-color: #F2F4FF;
+
+}
+
+.page2-achievement-child-image3{
+     height: 70px;
+     width: 70px;
+     background-color: #F2F4FF;
+
+}
+ .page2-achievement-child-image1{
+      background-image: url(images/achievement-image2.png);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      border-radius: 20px;
+ }
+ .page2-achievement-child-text{
+      padding-left: 15px;
+      padding-top: 10px;
+ }
+ .page2-achievement-child-text > h1{
+    font-size: 23px;
+}
+.page2-achievement-child-image2{
+     background-image: url(images/achievement-image1.png);
+     background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
+     border-radius: 20px;
+}
+.page2-achievement-child-image3{
+     background-image: url(images/achievement-image3.png);
+     background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
+     border-radius: 20px;
+}
+.page2-challenge-heading{
+     padding: 25px 25px;
+     /* background-color: blueviolet; */
+     text-align: center;
+     padding-top: 60px;
+}
+.page2-challenge-box{
+      height: 290px;
+      width: 100%;
+      /* background-color: chartreuse; */
+      display: flex;
+      padding: 0 30px ;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 40px;
+}
+
+.page2-challenge-box-child{
+     height: 90%;
+     width: 40%;
+     background-color: #F8F9FD;
+     padding: 40px 10px;
+     border-radius: 10px;
+}
+.page2-challenge-box-child1-image1{
+      height: 80px;
+      width: 80px;
+      /* background-color: blueviolet; */
+      background-image: url(images/challenge-image1.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: contain;
+}
+.page2-challenge-box-child1-image2{
+     height: 80px;
+     width: 80px;
+     /* background-color: blueviolet; */
+     background-image: url(images/challenge-image2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.page2-challenge-box-child1-image3{
+     height: 80px;
+     width: 80px;
+     /* background-color: blueviolet; */
+     background-image: url(images/challenge-image3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.page2-challenge-box-child1-image4{
+     height: 80px;
+     width: 80px;
+     /* background-color: blueviolet; */
+     background-image: url(images/challenge-image4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.page2-challenge-box-child >h1{
+      font-size: 25px;
+      margin-bottom: 3px;
+      padding-left: 20px;
+}
+
+.page2-challenge-box-child > p{
+     
+     padding-left: 20px;
 }
