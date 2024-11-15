@@ -127,6 +127,7 @@ body {
       height: 90px;
       width:280px;
      color: white;
+    
 }
 .page2-achievement-child1{
     /* background-color: antiquewhite;  */
@@ -214,6 +215,7 @@ body {
      background-color: #F8F9FD;
      padding: 40px 10px;
      border-radius: 10px;
+     box-shadow: 0.1px 0.1px 0.8px black;
 }
 .page2-challenge-box-child1-image1{
       height: 80px;
